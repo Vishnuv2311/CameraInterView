@@ -22,6 +22,10 @@ import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
+/*
+* Camera knowledge like launch, preview, capture, recording, etc…
+*/
+
 class MainActivity : AppCompatActivity() {
     private var imageCapture: ImageCapture? = null
     private var videoCapture: VideoCapture? = null
